@@ -7,12 +7,12 @@
 */
 /* Default */
 /* ======= Colors ======= */
-$text-color: #000;
-$text-secondary: #000;
-$grey: #000;
-$darker-grey: #000;
-$smoky-white: #000;
-$divider: #efefef;
+$text-color: #fff;
+$text-secondary: #fff;
+$grey: #fff;
+$darker-grey: #fff;
+$smoky-white: #fff;
+$divider: #34bcaa;
 $heart: #fb866a;
 
 /* ======= Base ======= */
@@ -103,7 +103,7 @@ pre code {
 .header {
   padding: 10px 0;
   background: $color;
-  color: #000;
+  color: #fff;
   position: fixed;
   width: 100%;
 }
@@ -126,7 +126,7 @@ pre code {
   padding-top: 10px;
 }
 .header .logo a {
-  color: #34bcaa;
+  color: #debf12;
 }
 .header .logo a:hover {
   text-decoration: none;
@@ -147,7 +147,7 @@ pre code {
   outline: none;
 }
 .header .main-nav button .icon-bar {
-  background-color: #000;
+  background-color: #fff;
 }
 .header .main-nav .navbar-collapse {
   padding: 0;
@@ -191,7 +191,7 @@ pre code {
 /* ======= Promo Section ======= */
 .promo {
   background: $color;
-  color: #000;
+  color: #fff;
   padding-top: 150px;
 }
 .promo .title {
@@ -280,7 +280,7 @@ pre code {
 .join {
   padding: 80px 0;
   background: $color;
-  color: #000;
+  color: #fff;
 }
 .join .title {
   color: darken($color, 30%);
@@ -299,7 +299,7 @@ pre code {
 }
 .join .feature-list li .fa {
   margin-right: 5px;
-  color: #000;
+  color: #fff;
 }
 /* ======= Docs Section ======= */
 .docs {
