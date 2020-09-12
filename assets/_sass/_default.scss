@@ -7,8 +7,8 @@
 */
 /* Default */
 /* ======= Colors ======= */
-$text-color: #444;
-$text-secondary: #666;
+$text-color: #000;
+$text-secondary: #000;
 $grey: #999;
 $darker-grey: #666;
 $smoky-white: #f5f5f5;
@@ -103,7 +103,7 @@ pre code {
 .header {
   padding: 10px 0;
   background: $color;
-  color: #fff;
+  color: #000;
   position: fixed;
   width: 100%;
 }
@@ -126,7 +126,7 @@ pre code {
   padding-top: 10px;
 }
 .header .logo a {
-  color: #fff;
+  color: #34bcaa;
 }
 .header .logo a:hover {
   text-decoration: none;
@@ -191,7 +191,7 @@ pre code {
 /* ======= Promo Section ======= */
 .promo {
   background: $color;
-  color: #fff;
+  color: #000;
   padding-top: 150px;
 }
 .promo .title {
@@ -243,7 +243,7 @@ pre code {
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #34bcaa;
 }
 .about .title {
   color: darken($color, 30%);
@@ -280,7 +280,7 @@ pre code {
 .join {
   padding: 80px 0;
   background: $color;
-  color: #fff;
+  color: #000;
 }
 .join .title {
   color: darken($color, 30%);
@@ -299,7 +299,7 @@ pre code {
 }
 .join .feature-list li .fa {
   margin-right: 5px;
-  color: #fff;
+  color: #000;
 }
 /* ======= Docs Section ======= */
 .docs {
@@ -423,7 +423,7 @@ pre code {
 .contact {
   padding: 80px 0;
   background: $color;
-  color: #fff;
+  color: #000;
 }
 .contact .contact-inner {
   max-width: 760px;
@@ -549,7 +549,7 @@ pre code {
   background: darken($color-2, 10%);
 }
 .contact .social-icons a .fa {
-  color: #fff;
+  color: #34bcaa;
 }
 .contact .social-icons a .fa:before {
   font-size: 26px;
@@ -560,7 +560,7 @@ pre code {
 .footer {
   padding: 15px 0;
   background: darken($color, 40%);
-  color: #fff;
+  color: #000;
 }
 .footer .copyright {
   -webkit-opacity: 0.8;
