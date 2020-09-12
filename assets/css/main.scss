@@ -8,19 +8,19 @@
 //
 
 {% if site.theme == "one" %}
-  $color: #000;
+  $color: #fff;
   $color-2: #34bcaa;
 {% elsif site.theme == "two" %}
-   $color: #000;
+   $color: #fff;
   $color-2: #34bcaa;
 {% elsif site.theme == "three" %}
-  $color: #000;
+  $color: #fff;
   $color-2: #34bcaa;
 {% elsif site.theme == "four" %}
-  $color: #000;
+  $color: #fff;
   $color-2: #34bcaa;
 {% else %}
-  $color: #000;
+  $color: #fff;
   $color-2: #34bcaa;
 {% endif %}
 
