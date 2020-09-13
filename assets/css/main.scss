@@ -100,16 +100,16 @@
     background-color: transparent;
     border-radius: 5px;
     &.btn-outline-primary {
-      border: 2px solid $color;
-      color: $color;
+      border: 2px solid $color4;
+      color: $color5;
     }
     &.btn-outline-secondary {
-      border: 2px solid $color-2;
-      color: $color;
+      border: 2px solid $color4;
+      color: $color5;
     }
     &.btn-outline-medium {
-      border: 2px solid $color;
-      color: $color;
+      border: 2px solid $color4;
+      color: $color5;
     }
 }
 .btn-outline:hover {
