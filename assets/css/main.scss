@@ -10,18 +10,23 @@
 {% if site.theme == "one" %}
   $color: #17baef;
   $color-2: #eebf3f;
+  $color3: #000;
 {% elsif site.theme == "two" %}
   $color: #b4ca65;
   $color-2: #dd7c4f;
+  $color3: #000;
 {% elsif site.theme == "three" %}
   $color: #6690b9;
   $color-2: #f46fa3;
+  $color3: #000;
 {% elsif site.theme == "four" %}
   $color: #50c8c9;
   $color-2: #ffbe57;
+  $color3: #000;
 {% else %}
   $color: #6690b9;
   $color-2: #dd9d71;
+  $color3: #000;
 {% endif %}
 
 //
@@ -64,7 +69,7 @@
 }
 .promo .social-icons a {
     display: inline-block;
-    background: darken($color, 20%);
+    background: darken($color3, 20%);
     color: #fff;
     width: 48px;
     height: 48px;
@@ -100,13 +105,13 @@
 .btn-outline:hover {
     color: #fff !important;
     &.btn-outline-primary {
-      background-color: $color;
+      background-color: $color3;
     }
     &.btn-outline-secondary {
-      background-color: $color-2;
+      background-color: $color3;
     }
     &.btn-outline-medium {
-      background-color: darken($color, 15%);
+      background-color: darken($color3, 15%);
     }
 }
 .features .form-inline {
