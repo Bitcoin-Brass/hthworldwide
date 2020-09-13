@@ -7,11 +7,11 @@
 // Set theme colors
 //
 
-<!--{% if site.theme == "one" %}
-  $color: #fff;
-  $color-2: #34bcaa;
-{% elsif site.theme == "two" %}
-   $color: #fff;
+//{% if site.theme == "one" %}
+//  $color: #fff;
+//  $color-2: #34bcaa;
+// {% elsif site.theme == "two" %}
+//   $color: #fff;
   $color-2: #34bcaa;
 {% elsif site.theme == "three" %}
   $color: #fff;
@@ -22,7 +22,7 @@
 {% else %}
   $color: #fff;
   $color-2: #34bcaa;
-{% endif %}  -->
+{% endif %}
 
 //
 // Import partials from `_sass` folder
