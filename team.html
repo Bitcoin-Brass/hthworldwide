@@ -138,3 +138,31 @@ layout: default
  <a href="https://discord.gg/r7zKfy5"><span class="fab fa-discord"></span></a> 
 </div>
  </figure> 
+
+<!-- ******CONTACT****** -->
+<section id="contact" class="contact section has-pattern">
+ <div class="container"> 
+<div class="contact-inner">
+ <h2 class="title text-center">Contact</h2> 
+<address class="text-center"> <strong>{{ site.org_name }}</strong><br> {% if site.org_street_address %}{{ site.org_street_address }},&nbsp;{% endif %}{% if site.org_address_suite %}{{ site.org_address_suite }}<br>{% endif %} {% if site.org_city %}{{ site.org_city }},&nbsp;{% endif %}{% if site.org_state %}{{ site.org_state }}&nbsp;{% endif %}{% if site.org_zip %}{{ site.org_zip }}{% endif %}<br> {% if site.org_phone %} 
+<abbr title="Phone">P:</abbr> {{ site.org_phone }} {% endif %}
+ </address> 
+<div class="clearfix">
+</div> 
+<div class="info text-center">
+ <h4 class="sub-title">Get Connected</h4>
+ <ul class="social-icons list-inline"> 
+<li><a href="https://twitter.com/hthcoin" target="_blank"><i class="fab fa-twitter"></i></a></li> 
+<li><a href="https://www.facebook.com/HelptheHomelessCoinOfficial" target="_blank"><i class="fab fa-facebook"></i></a></li>
+ <li><a href="https://discord.gg/r7zKfy5/"><i class='fab fa-discord'></i></a></li> 
+{% if site.org_general_email_inbox %} <li class="last"><a href="mailto: {{ site.org_general_email_inbox }}"><i class="fa fa-envelope"></i></a></li>
+ {% endif %} 
+</ul> 
+</div>
+<!--//info--> 
+</div>
+<!--//contact-inner--> 
+</div>
+<!--//container-->
+</section>
+<!--//contact-->
