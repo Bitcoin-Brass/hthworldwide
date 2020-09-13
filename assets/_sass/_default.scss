@@ -107,7 +107,7 @@ pre code {
 .header {
   padding: 10px 0;
   background: $color3;
-  color: #ff0000;
+  color: $color6;
   position: fixed;
   width: 100%;
 }
@@ -151,7 +151,7 @@ pre code {
   outline: none;
 }
 .header .main-nav button .icon-bar {
-  background-color: #fff;
+  background-color: $color5;
 }
 .header .main-nav .navbar-collapse {
   padding: 0;
@@ -162,7 +162,7 @@ pre code {
   font-family: 'Montserrat', sans-serif;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: $color;
+  color: $color5;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
@@ -175,7 +175,7 @@ pre code {
   padding: 15px 10px;
 }
 .header .main-nav .nav .nav-item a:hover {
-  color: darken($color, 30%);
+  color: darken($color6, 30%);
   background: none;
 }
 .header .main-nav .nav .nav-item a:focus {
@@ -187,7 +187,7 @@ pre code {
   background: none;
 }
 .header .main-nav .nav .nav-item.active {
-  color: $color;
+  color: $color6;
 }
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
