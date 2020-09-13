@@ -2,10 +2,7 @@
 # Do not remove the triple dashes
 ---
 @charset "utf-8";
- 
-
-
- //// Import partials from `_sass` folder//
+  //// Import partials from `_sass` folder//
  @import "default";
  //// Insert custom css below this line//
  .disabled-link { pointer-events: none;}
