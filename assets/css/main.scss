@@ -14,13 +14,13 @@
   $color: #b4ca65;
   $color-2: #dd7c4f;
 {% elsif site.theme == "three" %}
-  $color: #6690b9;
+  $color: #fff;
   $color-2: #f46fa3;
 {% elsif site.theme == "four" %}
   $color: #50c8c9;
   $color-2: #ffbe57;
 {% else %}
-  $color: #6690b9;
+  $color: #fff;
   $color-2: #dd9d71;
 {% endif %}
 
