@@ -432,15 +432,15 @@ pre code {
 /* ======= Contact Section ======= */
 .contact {
   padding: 80px 0;
-  background: $color;
-  color: $color6;
+  background: $color3;
+  color: $color5;
 }
 .contact .contact-inner {
   max-width: 760px;
   margin: 0 auto;
 }
 .contact .title {
-  color: $color;
+  color: $color4;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -448,10 +448,10 @@ pre code {
   margin-bottom: 60px;
 }
 .contact a {
-  color: $color;
+  color: $color5;
 }
 .contact a:hover {
-  color: $color;
+  color: $color4;
 }
 .contact .author-message {
   position: relative;
@@ -476,8 +476,8 @@ pre code {
 }
 .contact .author-message .speech-bubble {
   margin-left: 155px;
-  background: $color;
-  color: $color;
+  background: $color3;
+  color: $color5;
   padding: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -490,13 +490,13 @@ pre code {
   position: relative;
 }
 .contact .author-message .speech-bubble .sub-title {
-  color: $color;
+  color: $color5;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 30px;
 }
 .contact .author-message .speech-bubble a {
-  color: $color6;
+  color: $color5;
 }
 .contact .author-message .speech-bubble:after {
   position: absolute;
@@ -508,19 +508,19 @@ pre code {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid $color;
+  border-right: 10px solid $color4;
 }
 .contact .author-message .speech-bubble .source {
   margin-top: 30px;
 }
 .contact .author-message .speech-bubble .source a {
-  color: $color;
+  color: $color5;
 }
 .contact .author-message .speech-bubble .source .title {
-  color: $color;
+  color: $color5;
 }
 .contact .info .sub-title {
-  color: $color;
+  color: $color5;
   margin-bottom: 30px;
   margin-top: 0;
 }
@@ -539,7 +539,7 @@ pre code {
 }
 .contact .social-icons a {
   display: inline-block;
-  background: $color;
+  background: $color3;
   width: 48px;
   height: 48px;
   text-align: center;
@@ -556,7 +556,7 @@ pre code {
   float: left;
 }
 .contact .social-icons a:hover {
-  background: $color4;
+  background: $color5;
 }
 .contact .social-icons a .fa {
   color: $color5;
@@ -569,7 +569,7 @@ pre code {
 /* ======= Footer ======= */
 .footer {
   padding: 15px 0;
-  background: $color;
+  background: $color3;
   color: $color5;
 }
 .footer .copyright {
