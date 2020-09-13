@@ -57,7 +57,7 @@
 }
 .promo .title {
   font-size: 65px;
-  color: $color;
+  color: $color4;
   margin-top: 0;
 }
 .btns {
@@ -72,15 +72,15 @@
 }
 .join-us-intro {
   margin-top: 0;
-  color: #ddd !important;
+  color: $color4 !important;
 }
 .highlight {
-  color: $color-2 !important;
+  color: $color5 !important;
 }
 .promo .social-icons a {
     display: inline-block;
-    background: darken($color3, 20%);
-    color: #fff;
+    background: $color3;
+    color: $color5;
     width: 48px;
     height: 48px;
     text-align: center;
@@ -105,15 +105,15 @@
     }
     &.btn-outline-secondary {
       border: 2px solid $color-2;
-      color: $color-2;
+      color: $color;
     }
     &.btn-outline-medium {
-      border: 2px solid darken($color, 15%);
-      color: darken($color, 15%);
+      border: 2px solid $color;
+      color: $color;
     }
 }
 .btn-outline:hover {
-    color: #fff !important;
+    color: $color6 !important;
     &.btn-outline-primary {
       background-color: $color3;
     }
@@ -121,7 +121,7 @@
       background-color: $color3;
     }
     &.btn-outline-medium {
-      background-color: darken($color3, 15%);
+      background-color: $color3;
     }
 }
 .features .form-inline {
