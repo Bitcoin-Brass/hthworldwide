@@ -12,17 +12,17 @@
 //  $color-2: #34bcaa;
 // {% elsif site.theme == "two" %}
 //   $color: #fff;
-  $color-2: #34bcaa;
-{% elsif site.theme == "three" %}
-  $color: #fff;
-  $color-2: #34bcaa;
-{% elsif site.theme == "four" %}
-  $color: #fff;
-  $color-2: #34bcaa;
-{% else %}
-  $color: #fff;
-  $color-2: #34bcaa;
-{% endif %}
+//  $color-2: #34bcaa;
+//{% elsif site.theme == "three" %}
+//  $color: #fff;
+//  $color-2: #34bcaa;
+//{% elsif site.theme == "four" %}
+//  $color: #fff;
+//  $color-2: #34bcaa;
+//{% else %}
+//  $color: #fff;
+//  $color-2: #34bcaa;
+//{% endif %}
 
 //
 // Import partials from `_sass` folder
