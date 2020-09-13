@@ -250,7 +250,7 @@ pre code {
   background: $color3;
 }
 .about .title {
-  color: darken($color5, 30%);
+  color: $color5;
   margin-top: 0;
   margin-bottom: 60px;
 }
@@ -270,14 +270,14 @@ pre code {
 }
 .about .item .icon-holder .fa {
   font-size: 24px;
-  color: darken($color5, 30%);
+  color: $color5;
 }
 .about .item .content {
   padding-left: 60px;
 }
 .about .item .content .sub-title {
   margin-top: 0;
-  color: darken($color5, 30%);
+  color: $color5;
   font-size: 18px;
 }
 /* ======= Join Section ======= */
