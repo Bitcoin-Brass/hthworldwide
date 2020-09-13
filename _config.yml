@@ -1,1 +1,61 @@
-#INTRO#Set up is quick and easy. Simply replace any example text with your nonprofit's information.#To leave a field blank, simply remove everything after the colon (:) or place a hashtag (#) at the start of the line.#If you see '> # Enter on the next line', be sure the next line remains indented two spaces. #REQUIREDorg_name: HTH Worldwideorg_summary: > # Enter your summary on the next line. Be sure to indent by two spaces. Helping those in need is a way of lifeorg_full_description: > # Enter your description on the next line. Be sure to indent by two spaces. It is a part of human nature to look out for one another, but in some cases, help is not readily available and sometimes there is not enough help.</p> <p>Help The Homeless Worldwide wants to change that by helping those who are in need which will also include other organizations that are under funded across the globe. Help The Homeless Worldwide fully believes in their journey and knows with the help of mankind, they can achieve their goal of helping the homeless worldwide.</p> <p>Without the help from others, the homeless population will continue to grow leaving many people with nothing, including children regardless of their story. This is not how life is supposed to be, we are here together, as one and we should help one another the same as we help ourselves. Help The Homeless Worldwide asks that you come be apart of their amazing journey.#OPTIONAL#Non US-address support coming soonorg_general_email_inbox: hthcoin@gmail.comorg_street_address: 900 Barnegat Blvd N #Please include suite number on the line beloworg_address_suite: Unit 2406org_city: Barnegatorg_state: NJorg_zip: > # Enter zip on next line. Be sure to indent by two spaces. 08005org_phone: > # Enter phone on next line. Be sure to indent by two spaces. (848) 221-6383#SOCIAL MEDIAorg_twitter_username: hthcoinorg_facebook_username: HelptheHomelessCoinOfficialorg_instagram_username: https://discord.gg/xqGjacW #TAX STATUS#Your site will display an appropriate message below the Donate section#If your organization is fiscally sponsored, enter true below and add your sponsor's name. Otherwise enter false.fiscal_sponsor: falsefiscal_sponsor_name:#If your organization is currently registered as a 501(c)3 organization, enter true below. Otherwise enter false. Enter false if you have a fiscal sponsor.501c3: true #ONLINE DONATIONS & EMAIL SIGNUPS#To use these services, enter the required usernames. For further instructions, consult the README file.#If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blankdonorbox_campaign_name: free-template-demotinyletter_username: interestingnonprofits #SEARCH ENGINES#Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)publish: true #THEME#Select one of the five color schemes (default, one, two, three, or four)theme: default # *** DO NOT CHANGE ANYTHING BELOW THIS LINE *** # Unless you know what you're doing, no need to change anything below# Build settingsbaseurl: "" # the subpath of your site, e.g. /blog/markdown: kramdownkramdown: input: GFM sass: sass_dir: assets/_sass style: compressed #Features under development#These are not yet fully supported, but should give you a head start if you know what you're doingpaypal_button_id: #Not yet availablesmartergiving_id: #Not yet available#mailchimp_embed_code: > # Enter Mailchimp post url on next line.# //getkyn.us5.list-manage.com/subscribe/post?u=1407d7ee4cd0d47986cd54315&amp;id=cdc32b64fe#mailchimp_spam_guard: b_753395b9f963c9ea2d6980b7c_9e1559c2f0
+#INTRO
+#Set up is quick and easy. Simply replace any example text with your nonprofit's information.
+#To leave a field blank, simply remove everything after the colon (:) or place a hashtag (#) at the start of the line.
+#If you see '> # Enter on the next line', be sure the next line remains indented two spaces.
+ #REQUIREDorg_name: HTH Worldwideorg_summary: >
+ # Enter your summary on the next line. Be sure to indent by two spaces. Helping those in need is a way of lifeorg_full_description: >
+ # Enter your description on the next line. Be sure to indent by two spaces. It is a part of human nature to look out for one another, but in some cases, help is not readily available and sometimes there is not enough help.</p>
+ <p>Help The Homeless Worldwide wants to change that by helping those who are in need which will also include other organizations that are under funded across the globe. Help The Homeless Worldwide fully believes in their journey and knows with the help of mankind, they can achieve their goal of helping the homeless worldwide.</p>
+ <p>Without the help from others, the homeless population will continue to grow leaving many people with nothing, including children regardless of their story. This is not how life is supposed to be, we are here together, as one and we should help one another the same as we help ourselves. Help The Homeless Worldwide asks that you come be apart of their amazing journey.
+#OPTIONAL
+#Non US-address support coming soonorg_general_email_inbox: hthcoin@gmail.com
+org_street_address: 900 Barnegat Blvd N
+ #Please include suite number on the line below
+org_address_suite: Unit 2406
+org_city: Barnegat
+org_state: NJ
+org_zip: >
+ # Enter zip on next line. Be sure to indent by two spaces.
+ 08005
+org_phone: >
+ # Enter phone on next line. Be sure to indent by two spaces.
+ (848) 221-6383
+#SOCIAL MEDIA
+org_twitter_username: hthcoin
+org_facebook_username: HelptheHomelessCoinOfficial
+org_instagram_username: https://discord.gg/xqGjacW
+#TAX STATUS
+#Your site will display an appropriate message below the Donate section
+#If your organization is fiscally sponsored, enter true below and add your sponsor's name. Otherwise enter false.
+fiscal_sponsor: false
+fiscal_sponsor_name:
+#If your organization is currently registered as a 501(c)3 organization, enter true below. Otherwise enter false. Enter false if you have a fiscal sponsor.
+501c3: true
+#ONLINE DONATIONS & EMAIL SIGNUPS
+#To use these services, enter the required usernames. For further instructions, consult the README file.
+#If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
+donorbox_campaign_name: free-template-demo
+tinyletter_username: Devilking6105
+#SEARCH ENGINES
+#Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)
+publish: true 
+#THEME
+#Select one of the five color schemes (default, one, two, three, or four)
+theme: default
+ # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
+ # Unless you know what you're doing, no need to change anything below
+# Build settingsbaseurl: "" 
+# the subpath of your site, e.g. /blog/
+markdown: kramdown
+kramdown: 
+input: GFM 
+sass: sass
+_dir: assets/_sass 
+style: compressed 
+#Features under development
+#These are not yet fully supported, but should give you a head start if you know what you're doing
+paypal_button_id: #Not yet available
+smartergiving_id: #Not yet available
+#mailchimp_embed_code: > # Enter Mailchimp post url on next line.
+# //getkyn.us5.list-manage.com/subscribe/post?u=1407d7ee4cd0d47986cd54315&amp;id=cdc32b64fe
+#mailchimp_spam_guard: b_753395b9f963c9ea2d6980b7c_9e1559c2f0
