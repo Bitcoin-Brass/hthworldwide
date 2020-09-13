@@ -8,20 +8,35 @@
 //
 
 {% if site.theme == "one" %}
-  $color: #fff;
-  $color-2: #34bcaa;
+  $color: #17baef;
+  $color-2: #eebf3f;
+  $color3: #000;
+  $color4: #debf12;
+  $color5: #34bcaa;
 {% elsif site.theme == "two" %}
-   $color: #fff;
-  $color-2: #34bcaa;
+  $color: #b4ca65;
+  $color-2: #dd7c4f;
+  $color3: #000;
+  $color4: #debf12;
+  $color5: #34bcaa;
 {% elsif site.theme == "three" %}
-  $color: #fff;
-  $color-2: #34bcaa;
+  $color: #6690b9;
+  $color-2: #f46fa3;
+  $color3: #000;
+  $color4: #debf12;
+  $color5: #34bcaa;
 {% elsif site.theme == "four" %}
-  $color: #fff;
-  $color-2: #34bcaa;
+  $color: #50c8c9;
+  $color-2: #ffbe57;
+  $color3: #000;
+  $color4: #debf12;
+  $color5: #34bcaa;
 {% else %}
-  $color: #fff;
-  $color-2: #34bcaa;
+  $color: #6690b9;
+  $color-2: #dd9d71;
+  $color3: #000;
+  $color4: #debf12;
+  $color5: #34bcaa;
 {% endif %}
 
 //
@@ -42,7 +57,7 @@
 }
 .promo .title {
   font-size: 65px;
-  color: #34bcaa;
+  color: $color;
   margin-top: 0;
 }
 .btns {
@@ -57,14 +72,14 @@
 }
 .join-us-intro {
   margin-top: 0;
-  color: #34bcaa !important;
+  color: #ddd !important;
 }
 .highlight {
   color: $color-2 !important;
 }
 .promo .social-icons a {
     display: inline-block;
-    background: #000;
+    background: darken($color3, 20%);
     color: #fff;
     width: 48px;
     height: 48px;
@@ -100,13 +115,13 @@
 .btn-outline:hover {
     color: #fff !important;
     &.btn-outline-primary {
-      background-color: #000;
+      background-color: $color3;
     }
     &.btn-outline-secondary {
-      background-color: #000;
+      background-color: $color3;
     }
     &.btn-outline-medium {
-      background-color: #000;
+      background-color: darken($color3, 15%);
     }
 }
 .features .form-inline {
