@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <!-- ******HEADER****** -->
 <header id="header" class="header"> 
@@ -44,86 +45,103 @@ layout: default
 <!--//header-->
 
 
-<div class="row">
-  <div class="column">
-    <img src="schreenshots/altcoincash.png" alt="teacher" style="width:100%">
-  </div>
- <div class="mu-our-teacher-social">
- <a href="https://twitter.com/gpuhot">
+
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>HTH Founders</h1>
+  <p>The Founders of HTH Worldwide</p>  
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+   
+    <img src=""schreenshots/altcoincash.png"" style="width:100%">
+   <div>
+   <a href="https://twitter.com/gpuhot">
 <span class="fab fa-twitter">
 </span>
 </a>
+   <span class="icon-favicon"></span></a>
 <a href="https://gpuhot.com"><span class="icon-gpupool"></span>
 </a> <a href="https://discord.gg/FBFVFhv">
- <div>
- <span class="icon-favicon"></span></div></a>
- </div> 
- <div class="mu-ourteacher-single-content"> 
-<h4>Altcoincash</h4>
+ <h4>Altcoincash</h4>
  <span>Founder</span>
- <p>Cryptocurrency enthusiast who hails from Norway</p> 
-</div>
- </div> 
-</div>
+   <p>Cryptocurrency enthusiast who hails from Norway</p> 
+   </div>
  
  
-  <div class="column">
-    <img src="schreenshots/coderabbit.png" alt="teacher" style="width:100%">
-  </div>
-<div class="mu-ourteacher-single-content">
- <h4>Coderabbit</h4> 
+    <img src=""schreenshots/coderabbit.png"" style="width:100%">
+ <div>
+  <h4>Coderabbit</h4> 
 <span>Founder</span> 
 <p>Cryptocurrency enthusiast from Brazil</p> 
-</div> 
-
-
-  <div class="column">
-    <img src="schreenshots/devilking6105.png" alt="teacher" style="width:100%">
-  </div>
-<div class="mu-our-teacher-social">
+   </div>
+ 
+    <img src=""schreenshots/devilking6105.png"" style="width:100%">
+ <div>
  <a href="https://www.facebook.com/HelptheHomelessCoinOfficial"><span class="fab fa-facebook"></span></a>
  <a href="https://twitter.com/HTHCoin"><span class="fab fa-twitter"></span></a> 
 <a href="https://www.linkedin.com/in/michael-howlett-1896617a/"><span class="fab fa-linkedin"></span></a> 
 <a href="https://discord.gg/r7zKfy5"><span class="fab fa-discord"></span></a> 
-</div> 
-<div class="mu-ourteacher-single-content">
  <h4>Michael H</h4>
  <span>Founder</span> 
-<p>Director of HTH Worldwide, Cryptocurrency enthusiast from New Jersey, USA</p> 
-</div>
-  
-
-
-
-
-<div class="column">
-    <img src="schreenshots/duhjeff.png" alt="teacher" style="width:100%">
-  </div>
-<div class="mu-ourteacher-single-content">
+<p>Director of HTH Worldwide, Cryptocurrency enthusiast from New Jersey, USA</p>
+ </div>
+ 
+    <img src=""schreenshots/duhjeff.png"" style="width:100%">
+<div>
  <h4>DuhJeff</h4> 
 <span>Founder</span> 
 <p>Cryptocurrency enthusiast who sees it all in New York City, USA</p> 
 </div> 
-
-
-
-
-<div class="column">
-    <img src="schreenshots/mrblackstuff.png " alt="teacher" style="width:100%">
-  </div>
-<div class="mu-our-teacher-single">
- <figure class="mu-our-teacher-img">
- <img src="screenshots/mrblackstuff.png" alt="teacher img"> 
-<div class="mu-our-teacher-social">
+ 
+    <img src=""schreenshots/mrblackstuff.png"" style="width:100%">
+<div>
  <a href="https://www.linkedin.com/in/cecildaisy"><span class="fab fa-linkedin"></span></a>
  <a href="https://discord.gg/r7zKfy5"><span class="fab fa-discord"></span></a> 
 </div>
+ </div>
+  
+  <div class="column">
+    <img src=""schreenshots/altcoincash.png"" style="width:100%">
+    <img src=""schreenshots/coderabbit.png"" style="width:100%">
+    <img src=""schreenshots/devilking6105.png"" style="width:100%">
+    <img src=""schreenshots/duhjeff.png"" style="width:100%">
+    <img src=""schreenshots/mrblackstuff.png"" style="width:100%"> 
+  </div>
 </div>
 
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
 
 
-  
 
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
  
 
 
@@ -154,3 +172,61 @@ layout: default
 <!--//container-->
 </section>
 <!--//contact-->
+
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
