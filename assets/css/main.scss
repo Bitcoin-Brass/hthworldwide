@@ -1,114 +1,24 @@
----
-# Do not remove the triple dashes
----
-@charset "utf-8";
+---# Do not remove the triple dashes---@charset "utf-8"; //// Set theme colors// {% if site.theme == "one" %} $color: #fff; $color-2: #34bcaa;{% elsif site.theme == "two" %} $color: #fff; $color-2: #34bcaa;{% elsif site.theme == "three" %} $color: #fff; $color-2: #34bcaa;{% elsif site.theme == "four" %} $color: #fff; $color-2: #34bcaa;{% else %} $color: #fff; $color-2: #34bcaa;{% endif %} //// Import partials from `_sass` folder// @import "default"; //// Insert custom css below this line// .disabled-link { pointer-events: none;}.logo-title:hover { text-decoration: none;}.promo .title { font-size: 65px; color: #34bcaa; margin-top: 0;}.btns { margin-top: 50px; margin-bottom: 50px;}.promo .meta { margin-top: 30px;}.donorbox { margin-top: 60px;}.join-us-intro { margin-top: 0; color: #34bcaa !important;}.highlight { color: $color-2 !important;}.promo .social-icons a { display: inline-block; background: #000; color: #fff; width: 48px; height: 48px; text-align: center; padding-top: 12px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; margin-right: 8px; float: left;}.btn-outline, .btn-outline:link, .btn-outline:visited { background-color: transparent; border-radius: 5px; &.btn-outline-primary { border: 2px solid $color; color: $color; } &.btn-outline-secondary { border: 2px solid $color-2; color: $color-2; } &.btn-outline-medium { border: 2px solid darken($color, 15%); color: darken($color, 15%); }}.btn-outline:hover { color: #fff !important; &.btn-outline-primary { background-color: #000; } &.btn-outline-secondary { background-color: #000; } &.btn-outline-medium { background-color: #000; }}.features .form-inline { margin-top: 10px;}
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
 
-//
-// Set theme colors
-//
 
-//{% if site.theme == "one" %}
-//  $color: #fff;
-//  $color-2: #34bcaa;
-// {% elsif site.theme == "two" %}
-//   $color: #fff;
-//  $color-2: #34bcaa;
-//{% elsif site.theme == "three" %}
-//  $color: #fff;
-//  $color-2: #34bcaa;
-//{% elsif site.theme == "four" %}
-//  $color: #fff;
-//  $color-2: #34bcaa;
-//{% else %}
-//  $color: #fff;
-//  $color-2: #34bcaa;
-//{% endif %}
+    
+    
+      
+    
+    
+      
+    
+    
+      
 
-//
-// Import partials from `_sass` folder
-//
-
-@import "default";
-
-//
-// Insert custom css below this line
-//
-
-.disabled-link {
-  pointer-events: none;
-}
-.logo-title:hover {
-  text-decoration: none;
-}
-.promo .title {
-  font-size: 65px;
-  color: #34bcaa;
-  margin-top: 0;
-}
-.btns {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.promo .meta {
-    margin-top: 30px;
-}
-.donorbox {
-  margin-top: 60px;
-}
-.join-us-intro {
-  margin-top: 0;
-  color: #34bcaa !important;
-}
-.highlight {
-  color: $color-2 !important;
-}
-.promo .social-icons a {
-    display: inline-block;
-    background: #000;
-    color: #fff;
-    width: 48px;
-    height: 48px;
-    text-align: center;
-    padding-top: 12px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    margin-right: 8px;
-    float: left;
-}
-.btn-outline, .btn-outline:link, .btn-outline:visited {
-    background-color: transparent;
-    border-radius: 5px;
-    &.btn-outline-primary {
-      border: 2px solid $color;
-      color: $color;
-    }
-    &.btn-outline-secondary {
-      border: 2px solid $color-2;
-      color: $color-2;
-    }
-    &.btn-outline-medium {
-      border: 2px solid darken($color, 15%);
-      color: darken($color, 15%);
-    }
-}
-.btn-outline:hover {
-    color: #fff !important;
-    &.btn-outline-primary {
-      background-color: #000;
-    }
-    &.btn-outline-secondary {
-      background-color: #000;
-    }
-    &.btn-outline-medium {
-      background-color: #000;
-    }
-}
-.features .form-inline {
-  margin-top: 10px;
-}
+  
