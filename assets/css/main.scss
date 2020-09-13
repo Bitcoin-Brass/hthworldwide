@@ -189,10 +189,20 @@ color: $color5;
 
 #mu-our-teacher
 {	
-display: inline;
-float: left;
-padding: 100px 0;	
-width: 100%;	
+max-width: 800px;
+background: $color3 !important;
+color: $color5 !important; 
+padding: 30px; 
+-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; 
+-ms-border-radius: 4px; 
+-o-border-radius: 4px; 
+border-radius: 4px; 
+border: 1px solid $color4; 
+-moz-background-clip: padding; 
+-webkit-background-clip: padding-box; 
+background-clip: padding-box; 
+margin: 0 auto
 
 mu-our-teacher-area
 {		
