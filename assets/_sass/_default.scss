@@ -64,7 +64,7 @@ a.btn .fa {
 }
 .btn:focus,
 a.btn:focus {
-  color: $color6;
+  color: $color4;
 }
 a.btn-cta-primary,
 .btn-cta-primary {
@@ -84,7 +84,7 @@ a.btn-cta-secondary,
 .btn-cta-secondary {
   background: $color3;
   border: 1px solid $color3;
-  color: $color6;
+  color: $color5;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -107,7 +107,7 @@ pre code {
 .header {
   padding: 10px 0;
   background: $color3;
-  color: $color6;
+  color: $color5;
   position: fixed;
   width: 100%;
 }
@@ -119,7 +119,7 @@ pre code {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 .header.navbar-fixed-top .logo a {
-  color: $color;
+  color: $color4;
 }
 .header.navbar-fixed-top .main-nav .nav .nav-item a {
   color: $color4;
@@ -195,7 +195,7 @@ pre code {
 /* ======= Promo Section ======= */
 .promo {
   background: $color3;
-  color: $color6;
+  color: $color5;
   padding-top: 150px;
 }
 .promo .title {
@@ -287,7 +287,7 @@ pre code {
   color: $color6;
 }
 .join .title {
-  color: $color;
+  color: $color5;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -427,7 +427,7 @@ pre code {
 .contact {
   padding: 80px 0;
   background: $color;
-  color: #fff;
+  color: $color6;
 }
 .contact .contact-inner {
   max-width: 760px;
@@ -490,7 +490,7 @@ pre code {
   margin-bottom: 30px;
 }
 .contact .author-message .speech-bubble a {
-  color: #fff;
+  color: $color6;
 }
 .contact .author-message .speech-bubble:after {
   position: absolute;
@@ -553,7 +553,7 @@ pre code {
   background: $color4;
 }
 .contact .social-icons a .fa {
-  color: $color6;
+  color: $color5;
 }
 .contact .social-icons a .fa:before {
   font-size: 26px;
@@ -564,7 +564,7 @@ pre code {
 .footer {
   padding: 15px 0;
   background: $color;
-  color: $color6;
+  color: $color5;
 }
 .footer .copyright {
   -webkit-opacity: 0.8;
