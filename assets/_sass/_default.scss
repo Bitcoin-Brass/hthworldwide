@@ -46,7 +46,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: darken($color, 10%);
+  color: darken($color5, 10%);
 }
 .btn,
 a.btn {
@@ -68,34 +68,34 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: darken($color, 30%);
-  border: 1px solid darken($color, 30%);
-  color: #fff;
+  background: darken($color5, 30%);
+  border: 1px solid darken($color5, 30%);
+  color: $color6;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: darken($color, 35%);
-  border: 1px solid darken($color, 35%);
-  color: #fff;
+  background: darken($color4, 35%);
+  border: 1px solid darken($color4, 35%);
+  color: $color3;
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
-  background: $color-2;
-  border: 1px solid $color-2;
-  color: #fff;
+  background: $color3;
+  border: 1px solid $color3;
+  color: $color6;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: darken($color-2, 5%);
-  border: 1px solid darken($color-2, 5%);
-  color: #fff;
+  background: darken($color5, 5%);
+  border: 1px solid darken($color5, 5%);
+  color: #000;
 }
 .text-highlight {
-  color: darken($color, 30%);
+  color: darken($color5, 30%);
 }
 .offset-header {
   padding-top: 90px;
@@ -122,7 +122,7 @@ pre code {
   color: $color;
 }
 .header.navbar-fixed-top .main-nav .nav .nav-item a {
-  color: $text-secondary;
+  color: $color4;
 }
 .header .logo {
   margin: 0;
@@ -130,7 +130,7 @@ pre code {
   padding-top: 10px;
 }
 .header .logo a {
-  color: #debf12;
+  color: $color4;
 }
 .header .logo a:hover {
   text-decoration: none;
@@ -166,7 +166,7 @@ pre code {
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: darken($color, 20%);
+  color: darken($color5, 20%);
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -194,17 +194,17 @@ pre code {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background: $color;
-  color: #fff;
+  background: $color3;
+  color: $color6;
   padding-top: 150px;
 }
 .promo .title {
   font-size: 98px;
-  color: darken($color, 30%);
+  color: darken($color5, 30%);
   margin-top: 0;
 }
 .promo .title .highlight {
-  color: $color-2;
+  color: $color5;
 }
 .promo .intro {
   font-size: 28px;
@@ -220,19 +220,19 @@ pre code {
 .promo .meta {
   margin-top: 120px;
   margin-bottom: 30px;
-  color: darken($color, 20%);
+  color: darken($color3, 20%);
 }
 .promo .meta li {
   margin-right: 15px;
 }
 .promo .meta a {
-  color: darken($color, 20%);
+  color: darken($color3, 20%);
 }
 .promo .meta a:hover {
-  color: darken($color, 30%);
+  color: darken($color5, 30%);
 }
 .promo .social-media {
-  background: darken($color, 15%);
+  background: darken($color5, 15%);
   padding: 10px 0;
   margin: 0 auto;
 }
@@ -247,10 +247,10 @@ pre code {
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: $color3;
 }
 .about .title {
-  color: darken($color, 30%);
+  color: darken($color5, 30%);
   margin-top: 0;
   margin-bottom: 60px;
 }
@@ -270,14 +270,14 @@ pre code {
 }
 .about .item .icon-holder .fa {
   font-size: 24px;
-  color: darken($color, 30%);
+  color: darken($color5, 30%);
 }
 .about .item .content {
   padding-left: 60px;
 }
 .about .item .content .sub-title {
   margin-top: 0;
-  color: darken($color, 30%);
+  color: darken($color5, 30%);
   font-size: 18px;
 }
 /* ======= Join Section ======= */
