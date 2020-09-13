@@ -284,7 +284,7 @@ pre code {
 .join {
   padding: 80px 0;
   background: $color3;
-  color: $color5;
+  color: $color4;
 }
 .join .title {
   color: $color4;
@@ -292,32 +292,32 @@ pre code {
   margin-bottom: 30px;
 }
 .join a {
-  color: $color3;
+  color: $color4;
 }
 .join a:hover {
   color: $color4;
 }
 .join .feature-list li {
   margin-bottom: 10px;
-  color: $color5;
+  color: $color4;
 }
 .join .feature-list li .fa {
   margin-right: 5px;
-  color: $color5;
+  color: $color4;
 }
 /* ======= Docs Section ======= */
 .docs {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: $color3;
 }
 .docs .title {
-  color: $color;
+  color: $color5;
   margin-top: 0;
   margin-bottom: 30px;
 }
 .docs .docs-inner {
   max-width: 800px;
-  background: #fff;
+  background: $color6;
   padding: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
