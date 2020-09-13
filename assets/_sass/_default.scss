@@ -407,19 +407,7 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.donate .cta-container .speech-bubble:after {
-  position: absolute;
-  left: 50%;
-  bottom: -10px;
-  margin-left: -10px;
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid $color5;
-}
+
 .donate .cta-container .icon-holder {
   margin-bottom: 15px;
 }
