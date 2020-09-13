@@ -338,7 +338,9 @@ pre code {
   margin: 30px inherit;
 }
 .docs .code-block pre[class*="language-"] {
-  -webkit-border-radius: 4px;
+ background: $color3 !important;
+  color: $color5 !important;
+ -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
