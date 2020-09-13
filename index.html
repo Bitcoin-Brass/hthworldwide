@@ -60,7 +60,9 @@ layout: default
         <li><a href="https://discord.gg/xqGjacW/"><i class='fab fa-discord'></i></a></li>
         
         
-        <li class="last"><a href="mailto: hthcoin@gmail.com"><i class="fa fa-envelope"></i></a></li>
+        {% if site.org_general_email_inbox %}
+        <li class="last"><a href="mailto: {{ site.org_general_email_inbox }}"><i class="fa fa-envelope"></i></a></li>
+        {% endif %}
         
       </ul>
     </div>
