@@ -4,24 +4,24 @@
 @charset "utf-8";
 
 //
-// Set theme_color colors
+// Set theme colors
 //
 
-{% if site.theme_color == "one" %}
-  $color: #17baef;
-  $color-2: #eebf3f;
-{% elsif site.theme_color == "two" %}
-  $color: #b4ca65;
-  $color-2: #dd7c4f;
-{% elsif site.theme_color == "three" %}
-  $color: #6690b9;
-  $color-2: #f46fa3;
-{% elsif site.theme_color == "four" %}
-  $color: #50c8c9;
-  $color-2: #ffbe57;
+{% if site.theme == "one" %}
+  $color: #fff;
+  $color-2: #34bcaa;
+{% elsif site.theme == "two" %}
+   $color: #fff;
+  $color-2: #34bcaa;
+{% elsif site.theme == "three" %}
+  $color: #fff;
+  $color-2: #34bcaa;
+{% elsif site.theme == "four" %}
+  $color: #fff;
+  $color-2: #34bcaa;
 {% else %}
-  $color: #6690b9;
-  $color-2: #dd9d71;
+  $color: #fff;
+  $color-2: #34bcaa;
 {% endif %}
 
 //
@@ -42,7 +42,7 @@
 }
 .promo .title {
   font-size: 65px;
-  color: $color;
+  color: #34bcaa;
   margin-top: 0;
 }
 .btns {
@@ -57,14 +57,14 @@
 }
 .join-us-intro {
   margin-top: 0;
-  color: #ddd !important;
+  color: #34bcaa !important;
 }
 .highlight {
   color: $color-2 !important;
 }
 .promo .social-icons a {
     display: inline-block;
-    background: darken($color, 20%);
+    background: #000;
     color: #fff;
     width: 48px;
     height: 48px;
@@ -100,13 +100,13 @@
 .btn-outline:hover {
     color: #fff !important;
     &.btn-outline-primary {
-      background-color: $color;
+      background-color: #000;
     }
     &.btn-outline-secondary {
-      background-color: $color-2;
+      background-color: #000;
     }
     &.btn-outline-medium {
-      background-color: darken($color, 15%);
+      background-color: #000;
     }
 }
 .features .form-inline {
