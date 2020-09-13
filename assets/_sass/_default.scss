@@ -70,21 +70,21 @@ a.btn-cta-primary,
 .btn-cta-primary {
   background: $color5;
   border: 1px solid $color5;
-  color: $color3;
+  color: $color4;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: $color4;
+  background: $color5;
   border: 1px solid $color4;
   color: $color3;
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
-  background: $color3;
-  border: 1px solid $color3;
-  color: $color5;
+  background: $color5;
+  border: 1px solid $color5;
+  color: $color4;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -92,7 +92,7 @@ a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
   background: $color5;
   border: 1px solid $color5;
-  color: $color3;
+  color: $color4;
 }
 .text-highlight {
   color: $color5;
@@ -220,16 +220,16 @@ pre code {
 .promo .meta {
   margin-top: 120px;
   margin-bottom: 30px;
-  color: $color3;
+  color: $color5;
 }
 .promo .meta li {
   margin-right: 15px;
 }
 .promo .meta a {
-  color: $color3;
+  color: $color5;
 }
 .promo .meta a:hover {
-  color: $color3;
+  color: $color5;
 }
 .promo .social-media {
   background: $color3;
