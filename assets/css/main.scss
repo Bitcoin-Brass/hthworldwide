@@ -131,14 +131,74 @@
 
 /*================== TEACHER SECTION====================*/ 
 #mu-our-teacher
+ {	 	 
+padding: 60px 0;	 
+width: 100%;	
+}	
+
+#mu-our-teacher 
+
+.mu-our-teacher-area 
+
+.mu-our-teacher-content 
+
+.mu-our-teacher-single 
+{	 	 
+margin-bottom: 30px;	
+}
+
+#mu-our-teacher
+{	
+
+.mu-our-teacher-area
+{		
+
+.mu-our-teacher-content
+{			
+
+.mu-our-teacher-single
+{				
+
+.mu-our-teacher-img
+{					
+
+.mu-our-teacher-social
+{						
+background-color: $color3;	
+						
+					
+a
+{						
+	
+&:hover,					
+		
+
+&:focus
+{						
+color: $color5;					
+}						
+}					
+}				
+}						
+}		
+}	
+}
+}
+
+
+
+#mu-our-teacher
 {	
 display: inline;
 float: left;
 padding: 100px 0;	
 width: 100%;	
 
-.mu-our-teacher-area
-{			
+mu-our-teacher-area
+{		
+display: inline;		
+float: left;		
+width: 100%;
 
 .mu-our-teacher-content
 {			
