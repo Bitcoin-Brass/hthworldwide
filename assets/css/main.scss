@@ -64,7 +64,7 @@
 }
 .promo .social-icons a {
     display: inline-block;
-    background: darken($color, 20%);
+    background: #000;
     color: #fff;
     width: 48px;
     height: 48px;
@@ -100,13 +100,13 @@
 .btn-outline:hover {
     color: #fff !important;
     &.btn-outline-primary {
-      background-color: $color;
+      background-color: #000;
     }
     &.btn-outline-secondary {
-      background-color: $color-2;
+      background-color: #000;
     }
     &.btn-outline-medium {
-      background-color: darken($color, 15%);
+      background-color: #000;
     }
 }
 .features .form-inline {
