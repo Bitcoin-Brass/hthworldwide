@@ -353,16 +353,16 @@ pre code {
 /* ======= Donate Section ======= */
 .donate {
   padding: 80px 0;
-  background: $color3;
+  background: $color3 !important;
 }
 .donate .title {
   margin-top: 0;
   margin-bottom: 60px;
-  color: $color4;
+  color: $color4 !important;
 }
 .donate .donate-inner {
   max-width: 800px;
-  background: $color3;
+  background: $color3 !important;
   color: $color4 !important;
   padding: 30px;
   -webkit-border-radius: 4px;
@@ -393,8 +393,8 @@ pre code {
   background-clip: padding-box;
 }
 .donate .cta-container .speech-bubble {
-  background: $color3;
-  color: $color5;
+  background: $color3 !important;
+  color: $color5 !important;
   padding: 30px;
   margin-bottom: 30px;
   position: relative;
@@ -418,7 +418,7 @@ pre code {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #d6f3fc;
+  border-top: 10px solid $color5;
 }
 .donate .cta-container .icon-holder {
   margin-bottom: 15px;
