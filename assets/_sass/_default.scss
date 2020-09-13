@@ -284,7 +284,7 @@ pre code {
 .join {
   padding: 80px 0;
   background: $color;
-  color: #fff;
+  color: $color6;
 }
 .join .title {
   color: $color;
@@ -292,7 +292,7 @@ pre code {
   margin-bottom: 30px;
 }
 .join a {
-  color: $color);
+  color: $color;
 }
 .join a:hover {
   color: $color;
@@ -303,7 +303,7 @@ pre code {
 }
 .join .feature-list li .fa {
   margin-right: 5px;
-  color: #fff;
+  color: $color6;
 }
 /* ======= Docs Section ======= */
 .docs {
