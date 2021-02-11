@@ -12,20 +12,20 @@ org_full_description: > # Enter your description on the next line. Be sure to in
 
 #OPTIONAL
 #Non US-address support coming soon
-org_general_email_inbox: hthcoin@gmail.com
-org_street_address: 900 Barnegat Blvd N #Please include suite number on the line below
-org_address_suite: Unit 2406
-org_city: Barnegat
-org_state: NJ
-org_zip: > # Enter zip on next line. Be sure to indent by two spaces.
-  08005
-org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
-  (848) 221-6383
+org_general_email_inbox: devilking6105@gmail.com
+#org_street_address: 900 Barnegat Blvd N #Please include suite number on the line below
+#org_address_suite: Unit 2406
+#org_city: Barnegat
+#org_state: NJ
+#org_zip: > # Enter zip on next line. Be sure to indent by two spaces.
+#  08005
+#org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
+#  (848) 221-6383
 
 #SOCIAL MEDIA
-org_twitter_username: hthcoin
-org_facebook_username: HelptheHomelessCoinOfficial
-org_instagram_username: https://discord.gg/xqGjacW
+org_twitter_username: SecureCloudnet
+#org_facebook_username: HelptheHomelessCoinOfficial
+org_instagram_username: https://discord.gg/XXjEvuXscs
 
 #TAX STATUS
 #Your site will display an appropriate message below the Donate section
