@@ -23,7 +23,7 @@ $color6: #fff;
 body {
   font-family: 'Lato', arial, sans-serif;
   color: $color5;
-  background: $color3;
+  background: $color6;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -69,7 +69,7 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: $color3;
+  background: $color6;
   border: 1px solid $color4;
   color: $color5;
   font-weight: 600;
@@ -77,13 +77,13 @@ a.btn-cta-primary,
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: $color3;
+  background: $color6;
   border: 1px solid $color4;
   color: $color4;
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
-  background: $color3;
+  background: $color6;
   border: 1px solid $color4;
   color: $color5;
   font-weight: 600;
@@ -91,7 +91,7 @@ a.btn-cta-secondary,
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: $color3;
+  background: $color6;
   border: 1px solid $color4;
   color: $color5;
 }
@@ -107,13 +107,13 @@ pre code {
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
-  background: $color3;
+  background: $color6;
   color: $color5;
   position: fixed;
   width: 100%;
 }
 .header.navbar-fixed-top {
-  background: $color3;
+  background: $color6;
   z-index: 9999;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
@@ -137,7 +137,8 @@ pre code {
   text-decoration: none;
 }
 .header .main-nav button {
-  background: $color6;
+  background: $color6
+6;
   color: $color5;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -195,7 +196,7 @@ pre code {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background: $color3;
+  background: $color6;
   color: $color5;
   padding-top: 150px;
 }
@@ -233,7 +234,7 @@ pre code {
   color: $color5;
 }
 .promo .social-media {
-  background: $color3;
+  background: $color6;
   padding: 10px 0;
   margin: 0 auto;
 }
@@ -248,7 +249,7 @@ pre code {
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
-  background: $color3;
+  background: $color6;
 }
 .about .title {
   color: #000;
@@ -284,7 +285,7 @@ pre code {
 /* ======= Join Section ======= */
 .join {
   padding: 80px 0;
-  background: $color3;
+  background: $color6;
   color: $color4;
 }
 .join .title {
@@ -309,7 +310,7 @@ pre code {
 /* ======= Docs Section ======= */
 .docs {
   padding: 80px 0;
-  background: $color3;
+  background: $color6;
 }
 .docs .title {
   color: $color4;
@@ -354,7 +355,7 @@ pre code {
 /* ======= Donate Section ======= */
 .donate {
   padding: 80px 0;
-  background: $color3 !important;
+  background: $color6 !important;
 }
 .donate .title {
   margin-top: 0;
@@ -363,7 +364,7 @@ pre code {
 }
 .donate .donate-inner {
   max-width: 800px;
-  background: $color3 !important;
+  background: $color6 !important;
   color: $color4 !important;
   padding: 30px;
   -webkit-border-radius: 4px;
@@ -394,7 +395,7 @@ pre code {
   background-clip: padding-box;
 }
 .donate .cta-container .speech-bubble {
-  background: $color3 !important;
+  background: $color6 !important;
   color: $color4 !important;
   padding: 30px;
   margin-bottom: 30px;
@@ -425,7 +426,7 @@ pre code {
 /* ======= Contact Section ======= */
 .contact {
   padding: 80px 0;
-  background: $color3;
+  background: $color6;
   color: $color5;
 }
 .contact .contact-inner {
@@ -469,7 +470,7 @@ pre code {
 }
 .contact .author-message .speech-bubble {
   margin-left: 155px;
-  background: $color3;
+  background: $color6;
   color: $color5;
   padding: 30px;
   -webkit-border-radius: 4px;
@@ -532,7 +533,7 @@ pre code {
 }
 .contact .social-icons a {
   display: inline-block;
-  background: $color3;
+  background: $color6;
   width: 48px;
   height: 48px;
   text-align: center;
@@ -562,7 +563,7 @@ pre code {
 /* ======= Footer ======= */
 .footer {
   padding: 15px 0;
-  background: $color3;
+  background: $color6;
   color: $color5;
 }
 .footer .copyright {
